@@ -1,2 +1,2 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Welcum to Rat Economy!</h1>
+<p>Check out our <a href="https://rat-economy.itch.io">itch.io</a>!</p>

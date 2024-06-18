@@ -1,3 +1,83 @@
-<h1>Welcome to Rat Economy!</h1>
-<p>Check out our <a href="https://rat-economy.itch.io">itch.io</a>!</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BEUA2wNjCAA?si=HaF8VwE0ekJjD2Wy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<body>
+    <img class="title" src="/title.png" alt="Rat Economy">
+
+    <p class="content" >
+        Our website is currently under construction.
+        <br>
+        Please visit our temporary website below!
+        <br>
+        <img class="arrow" src="/arrow.png" alt="Arrow">
+    </p>
+
+
+    <div class="buttons">
+        <a href="https://rat-economy.itch.io" target="_blank" class="button roboto-condensed-medium-italic">itch.io</a>
+        <a href="https://rat-economy.notion.site" target="_blank" class="button roboto-condensed-medium-italic">website</a>
+        <a href="   https://www.youtube.com/@rat-economy" target="_blank" class="button roboto-condensed-medium-italic">youtube</a>
+    </div>
+</body>
+
+
+
+
+<style>
+    .arrow{
+        width: 80px;
+        transform: rotate(45deg);
+        padding-top: 50px;
+    }
+
+    .title{
+        width: 50vw;
+        max-width: 800px;
+        min-width: 500px;
+    }
+    
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 32px;
+        height: 100vh; /* Adjust as needed */
+    }
+
+    .content {
+        font-size: 26px;
+        color: black;
+        line-height: 1.75;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 36px;
+        margin: 16px;
+    }
+
+    .button {
+        text-decoration: none;
+        padding: 16px 36px;
+        border-radius: 10px;
+        border: 0;
+        background-color: rgb(255, 56, 86);
+        letter-spacing: 1.5px;
+        font-size: 20px;
+        transition: all 0.15s ease;
+        box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+        color: hwb(0 100% 0%);
+        cursor: pointer;
+    }
+    .button:hover {
+        box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+    }
+    .button:active {
+        background-color: rgb(255, 56, 86);
+        /*50, 168, 80*/
+        box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+        transform: translateY(5px);
+        transition: 300ms;
+    }
+</style>
+

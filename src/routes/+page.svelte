@@ -17,9 +17,6 @@
     </div>
 </body>
 
-
-
-
 <style>
     .arrow{
         width: 80px;
@@ -74,7 +71,6 @@
     }
     .button:active {
         background-color: rgb(255, 56, 86);
-        /*50, 168, 80*/
         box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
         transform: translateY(5px);
         transition: 300ms;

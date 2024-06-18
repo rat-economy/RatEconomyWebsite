@@ -11,8 +11,8 @@
 
 
     <div class="buttons">
-        <a href="https://rat-economy.itch.io" target="_blank" class="button roboto-condensed-medium-italic">itch.io</a>
         <a href="https://rat-economy.notion.site" target="_blank" class="button roboto-condensed-medium-italic">website</a>
+        <a href="https://rat-economy.itch.io" target="_blank" class="button roboto-condensed-medium-italic">itch.io</a>
         <a href="   https://www.youtube.com/@rat-economy" target="_blank" class="button roboto-condensed-medium-italic">youtube</a>
     </div>
 </body>
@@ -47,7 +47,7 @@
     .content {
         font-size: 26px;
         color: black;
-        line-height: 1.75;
+        line-height: 2;
     }
 
     .buttons {
@@ -78,6 +78,32 @@
         box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
         transform: translateY(5px);
         transition: 300ms;
+    }
+
+    @media (max-width: 600px) {
+        body {
+            gap: 16px;
+        }
+        .title {
+            width: 90vw; /* Use more of the viewport width */
+            min-width: initial; /* Remove the minimum width */
+        }
+
+        .content {
+            font-size: 4.25vw; /* Slightly smaller font size */
+        }
+
+        .buttons {
+            flex-direction: column; /* Stack buttons vertically */
+            gap: 20px; /* Adjust gap for vertical layout */
+            width: 90%; /* Full width */
+            margin: 0;
+            padding: 10px 0px;
+        }
+
+        .arrow {
+            padding-top: 24px; /* Adjust padding */
+        }
     }
 </style>
 
